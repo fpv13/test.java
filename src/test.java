@@ -8,11 +8,10 @@ public class test {
         Scanner sc = new Scanner(System.in);
         int amount = sc.nextInt();
         int sum = 0;
-        int pay = 0;
 
         for (int i =0; i<3; i++)
         {
-            pay= amount/100*10;
+            int pay = amount / 100 * 10;
             sum=amount-pay;
             amount=sum;
         }
